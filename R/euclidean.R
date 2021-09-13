@@ -25,6 +25,7 @@ function(b, a) {
     q <- b
     b <- a %% b
     a <- q
+    q <- abs(q)
 
     }
 
