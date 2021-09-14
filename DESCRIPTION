@@ -1,15 +1,17 @@
-Package: Lab3
+Package: Lab03
 Type: Package
-Title: Euclidian and Dijkstra's 
-Version: 1.1.0
-Author: c(person(Raja Uzair Saeed <rajsa233@student.liu.se>),
-              person(Daniel Persson <danpe586@student.liu.se>))
-Maintainer: Raja Uzair <rajsa233@student.liu.se>
-Description: In this R package we implemented two famous algorithms, the Euclidian algorithm to find the greates common divisor of two integers and Dijkstra’s shortest path algorithm in a graph.
+Title: Euclidean and Dijkstras Algorithms
+Version: 2.0
+Date: 2021-09-14
+Authors@R: c(person("Raja Uzair", "Saeed", email = "rjuzair@gmail.com", role = c("aut")),
+             person("Daniel", "Persson", email = "danpe586@student.liu.se", role = c("aut", "cre")))
+Maintainer: Daniel Persson <danpe586@student.liu.se>
+Description: euclidean calculates the greatest common devisor. Dijkstras calculates the shortest path. 
+References: https://en.wikipedia.org/wiki/Euclidean_algorithm, 
+            https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 License: GPL-3
+RoxygenNote: 7.1.1
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
+Depends: R (>= 3.5.0)
+Suggests: testthat (>= 3.0.0)
